@@ -9,7 +9,7 @@ export default function BasicInfo({ children }) {
   return (
     <>
     {arr.map(([label, value], index) => (
-        <div key={index}><Str label={label} value={value} /></div>
+        <p key={index}><Str label={label} value={value} /></p>
     ))}
   </>
   )
